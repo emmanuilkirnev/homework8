@@ -1,0 +1,25 @@
+{
+    "name": "homework8",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "sass ./scss/index.scss ./css/index.css --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emmanuilkirnev/homework8.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/emmanuilkirnev/homework8/issues"
+    },
+    "homepage": "https://github.com/emmanuilkirnev/homework8#readme",
+    "devDependencies": {
+        "node-sass": "^4.13.0",
+        "sass": "^1.23.1"
+    }
+}

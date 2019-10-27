@@ -1,0 +1,44 @@
+@import "_mixins";
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.container {
+    border: 2px solid black;
+    h1 {
+        text-align: center;
+    }
+    p {
+        color: white;
+    }
+    h2 {
+        text-align: center;
+    }
+    .div1 {
+        background-color: red;
+        float: left;
+        padding: 20px;
+        border: 5px solid white;
+        height: 300px;
+    }
+    .div2 {
+        background-color: green;
+        float: left;
+        padding: 20px;
+        border: 5px solid white;
+        height: 300px;
+    }
+    .div3 {
+        background-color: blue;
+        float: left;
+        padding: 20px;
+        border: 5px solid white;
+        height: 300px;
+    }
+}
+
+@include conclusion;

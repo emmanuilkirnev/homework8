@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.container {
+  border: 2px solid black;
+}
+.container h1 {
+  text-align: center;
+}
+.container p {
+  color: white;
+}
+.container h2 {
+  text-align: center;
+}
+.container .div1 {
+  background-color: red;
+  float: left;
+  padding: 20px;
+  border: 5px solid white;
+  height: 300px;
+}
+.container .div2 {
+  background-color: green;
+  float: left;
+  padding: 20px;
+  border: 5px solid white;
+  height: 300px;
+}
+.container .div3 {
+  background-color: blue;
+  float: left;
+  padding: 20px;
+  border: 5px solid white;
+  height: 300px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .div1 {
+    width: 33.33%;
+  }
+
+  .div2 {
+    width: 33.33%;
+  }
+
+  .div3 {
+    width: 33.33%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .div1 {
+    width: 100%;
+  }
+
+  .div2 {
+    width: 50%;
+  }
+
+  .div3 {
+    width: 50%;
+  }
+}
+[class*=col-] {
+  float: left;
+  padding: 15px;
+}
+
+[class*=col-] {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
