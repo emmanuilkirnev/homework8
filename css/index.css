@@ -18,26 +18,22 @@
 .container h2 {
   text-align: center;
 }
-.container .div1 {
-  background-color: red;
+.container .div1,
+.container .div2,
+.container .div3 {
   float: left;
   padding: 20px;
   border: 5px solid white;
   height: 300px;
+}
+.container .div1 {
+  background-color: red;
 }
 .container .div2 {
   background-color: green;
-  float: left;
-  padding: 20px;
-  border: 5px solid white;
-  height: 300px;
 }
 .container .div3 {
   background-color: blue;
-  float: left;
-  padding: 20px;
-  border: 5px solid white;
-  height: 300px;
 }
 
 @media only screen and (min-width: 1024px) {
