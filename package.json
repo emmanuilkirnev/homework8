@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/emmanuilkirnev/homework8#readme",
     "devDependencies": {
-        "node-sass": "^4.13.0",
+        "node-sass": "^7.0.0",
         "sass": "^1.23.1"
     }
 }
